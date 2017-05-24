@@ -18,6 +18,8 @@
  }
 .ContactRef{
     margin:15px auto;
+    border-top:solid 1px;
+    padding-top:15px;
 }
 /*css don*/
 .btn-center{

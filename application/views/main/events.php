@@ -3,7 +3,7 @@
     <?php
     foreach($query->result() as $row){       
     ?><div class="row">
-        <div class="col-xs-3 col-xs-push-3">
+        <div class="col-xs-5 col-xs-push-1">
             <div class="cadre panel panel-default">
             <div class="panel panel-content">
             <ul class="list-group">
@@ -22,7 +22,7 @@
                 </li>
             </ul>
         </div> </div></div>
-          <div class="col-xs-5 col-xs-push-3 events-description">
+          <div class="col-xs-5 col-xs-push-1 events-description">
        <div class="panel panel-content">
             <div class="list-group">
                 <div class="list-group-item">
