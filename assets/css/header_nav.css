@@ -1,0 +1,144 @@
+body{
+    font-family: "Source", Helvetica, Arial, sans-serif;
+}
+
+.contenu{
+    min-height: 60vh;
+    margin-top: 100px;
+}
+
+.container>.row{
+    margin-top: 70px;
+}
+
+/* NAV */
+
+#navbar{
+    height: 70px;
+    background-color: #0bc1ad;
+}
+#navbar .navbar{
+    background-color: transparent;
+    border: 0px;
+    padding-top: 12px;
+}
+
+#navbar div a {
+    color: white;
+}
+
+#navbar div a.dropdown-link{
+    color: #0bc1ad;
+}
+
+.logo_nav_couleurs{
+    background-image: url('../img/logo_blanc_.png');
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    margin-top: -2px;
+}
+
+/* LOGO NAV */
+
+.navbar-brand{
+    padding: 0px;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-weight: normal;
+    color: #0bc1ad;
+    margin-bottom: 20px;
+    text-align: center;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #0bc1ad;
+    margin-bottom: 50px;
+    text-align: center;
+}
+h3, h4{
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #0bc1ad;
+    margin-bottom: 25px;
+}
+h5{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+/* DROPDOWN */
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color: transparent;
+}
+
+.dropdown-menu{
+    width: 400px;
+}
+
+.dropdown-menu>li>a{
+    color: black;
+}
+
+.navbar-right .dropdown-menu{
+    right: -130px;
+}
+
+/* CAROUSEL */
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.carousel-caption{
+    bottom: 30%;
+}
+
+.carousel-caption img{
+    width: 30%;
+    display: inline-block;
+}
+
+/* RETOUR HAUT DE PAGE */
+
+.scrollToTop{
+    z-index: 999;
+	padding:10px; 
+	text-align:center; 
+	font-weight: bold;
+	text-decoration: none;
+	position:fixed;
+	bottom:60px;
+	right:60px;
+	display:none;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #0bc1ad;
+}
+
+.scrollToTop:hover{
+	text-decoration:none;
+    cursor: pointer;
+}
+
+.fa{
+    color: #0bc1ad;
+    font-size: 25px;
+}
+
+/* confirmation newsletter */
+
+.alert-success{
+    background-color: #f2d33d;
+    border-color: transparent;
+    color: white;
+    text-align: center;
+    border-radius: 0px;
+    margin-top: 80px;
+}

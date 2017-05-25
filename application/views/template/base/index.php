@@ -6,18 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LePrintempsDeLaTulipe</title>
     <link rel="stylesheet" href="<?= base_url('node_modules/bootstrap/dist/css/bootstrap.min.css') ?>">
-    <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
     <link rel="stylesheet" href="<?= base_url('node_modules/font-awesome/css/font-awesome.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/footer.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/header_nav.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/contact.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/map.css') ?>">
-    <lgit coink rel="stylesheet" href="<?= base_url('assets/css/aboutus_style.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/aboutus_style.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/events.css') ?>">
+     <link rel="stylesheet" href="<?= base_url('assets/css/admin.css') ?>">
+     
+
     <script src='https://www.google.com/recaptcha/api.js'></script>
 
 </head>
 <body>
     
 <?php $this->load->view('template/base/nav'); ?>
-    
-<div class= "container ctn-color">
+<a href="#" class="scrollToTop"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+<div class= "container contenu">
 
 <?= $view_content ?>
 
@@ -27,5 +34,7 @@
 
 <script src=" <?= base_url('node_modules/jquery/dist/jquery.js') ?>"></script>
 <script src=" <?= base_url('node_modules/bootstrap/dist/js/bootstrap.js') ?>"></script>
+<script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
+
 </body>
 </html>

@@ -1,0 +1,56 @@
+footer{
+    margin-top: 120px;
+}
+
+.newsletter{
+    background-color: #0bc1ad;
+    height: 200px;
+    padding: 40px 0px;
+}
+
+.newsletter h3{
+    color: white;
+    text-transform: uppercase;
+}
+
+.newsletter_input{
+    width: 250px;
+    border: none;
+    padding: 5px 25px;
+    border-radius: 0px;
+    display: inline-block;
+}
+
+.newsletter_btn{
+    background-color: #0bc1ad;
+    width: 100px;
+    border: none;
+    height: 34px;
+    border-radius: 0px;
+    border: 2px solid white;
+    margin-top: -3px;
+    margin-left: -4px;
+}
+
+.newsletter_btn:hover{
+    background-color: #ddd147;
+    border-color: white;
+    transition: background 1s;
+}
+
+.sub_footer{
+    padding: 10px 0px;
+}
+
+.sub_footer .fa{
+    color: black;
+}
+
+.sub_footer .fa:hover{
+    color: #0bc1ad;
+    transition: color 0.6s;
+}
+
+.sub_footer span{
+    padding-right: 7px;
+}

@@ -1,0 +1,106 @@
+.home-img-circle{
+    width: 100px;
+}
+
+.objectifs p{
+padding-top: 35px;
+}
+
+h1{
+        margin-bottom: 50px;
+}
+
+.act-enf{
+    width: 418px;
+    height: 456px;
+    background-image: url('../img/home/act-enf2.jpg');
+    background-size: cover;
+    padding-top: 6%;
+}
+
+.act-ad{
+    width: 418px;
+    height: 456px;
+    background-image: url('../img/home/act-adulte.jpg');
+    background-size: cover;
+    padding-top: 6%;
+    
+}
+
+.projets a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.btn-don{
+    width: 50%;
+    margin: auto;
+    background-color: #f2d33d;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.btn-don a{
+        padding-top: 10px;
+    display: inline-block;
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.btn-don a:hover{
+    text-decoration: none;
+    color: orange;
+    transition: color 0.5s;
+}
+
+/* nav et header */ 
+
+#navbar{
+    height: 70px;
+    background-color: white;
+}
+
+#navbar .navbar{
+    background-color: transparent;
+    border: 0px;
+    padding-top: 12px;
+}
+
+#navbar div a{
+    color: #0bc1ad;
+}
+
+#navbar.navbar-fixed-top{
+    background-color: #0bc1ad;
+}
+
+#navbar.navbar-fixed-top div a {
+    color: white;
+}
+
+#navbar.navbar-fixed-top div a.dropdown-link{
+    color: #0bc1ad;
+}
+
+#home{
+    height: 100vh;
+}
+
+.logo_nav_couleurs{
+    background-image: url('../img/logo_couleurs.png');
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+        margin-top: -2px;
+}
+
+.logo_nav_blanc{
+    background-image: url('../img/logo_blanc_.png');
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+        margin-top: -2px;
+}
