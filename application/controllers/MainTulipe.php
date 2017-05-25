@@ -5,10 +5,6 @@ class MainTulipe extends MY_Controller {
         parent::__construct();
         // charge notre model
         $this->load->model('contact_model');
-        $this->load->helper('form'); 
-        $this->load->library('session');
-        $this->load->library('form_validation');
-		$this->load->helper('url');
         }
     public function index()
     {
@@ -21,7 +17,7 @@ class MainTulipe extends MY_Controller {
 	public function contact_form(){
 		$this->form_validation->set_rules('nom', 'nom', 'trim|required|min_length[5]',array('required' => 'Votre %s est requis'));
 		$this->form_validation->set_rules('email', 'email', 'trim|required|valid_email',array('required' => 'Oups, il manque votre %s'));
-		$this->form_validation->set_rules('message', 'message', 'trim|required|min_length[5]',array('required' => 'Where is the %s, man?'));
+		$this->form_validation->set_rules('message', 'message', 'trim|required|min_length[5]',array('required' => 'Que désirez-vous nous dire dans votre %s ?'));
         if ($this->form_validation->run() == FALSE)
                 {
         //sauvegarder la valeur de l'input dans l'input

@@ -1,0 +1,16 @@
+.moveinfow {
+    position: relative;
+    top:-50px;
+    left:200px;
+}
+
+#iw-container  .iw-title {
+   font-size: 22px;
+   font-weight: 400;
+   padding: 10px;
+   background-color: #0bc1ad;;
+   color: white;
+   margin: 1px;
+   border-radius: 2px 2px 0 0; /* In accordance with the rounding of the default infowindow corners. */
+}
+

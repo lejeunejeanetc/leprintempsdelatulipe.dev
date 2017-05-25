@@ -1,4 +1,5 @@
 <h2 class="alert alert-success">Merci pour votre inscription !</h2>
+
 <script>
     function redirect_homepage(){
         setTimeout(function () {

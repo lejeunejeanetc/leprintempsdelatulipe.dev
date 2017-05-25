@@ -71,7 +71,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
                     </div>
                 </div>
             </div>
-            <a href="<?php echo base_url("Events/more/$row->id")?>" class="btn btn-primary">En savoir plus</a>
+          
 
         </div> 
      <?php 
@@ -139,11 +139,10 @@ else { ?>
                     </div>
                 </div>
             </div>
-            <a href="<?php echo base_url("Events/more/$row->id")?>" class="btn btn-primary">En savoir plus</a>
+           
 
         </div>
 <?php 
 }
 }
-
  ?>

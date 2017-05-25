@@ -42,7 +42,7 @@
                     </div>
                     <div class="adressmail hoverinfo infoborder">
                         <i class="pull-left fa fa-envelope" aria-hidden="true"></i>
-                        <p>adressmail@mail.com</p>
+                        <p>info@printempsdelatulipe.be</p>
                     </div>
                     <div class="adresserue hoverinfo">
                         <i class="pull-left fa fa-map-marker" aria-hidden="true"></i>
@@ -63,7 +63,9 @@
             </div>
         </div>
         <div class="col-md-7">
-            <div class="center-map" id="map"></div>
+            <div class="center-map" id="map">
+               
+            </div>
         </div>
     </div>
     <script src="<?= base_url('assets/js/map.js'); ?>"></script>
