@@ -1,7 +1,6 @@
 body{
-    font-family: "Source", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
-
 .contenu{
     min-height: 60vh;
     margin-top: 100px;
