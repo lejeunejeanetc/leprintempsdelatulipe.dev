@@ -17,15 +17,15 @@
                                 <li class="dropdown-header">Activités pour jeunes</li>
                                 <li class="divider"></li>
                                 <li><a class="dropdown-link" href="<?php echo base_url("Jeunes/SoutienScolaire");?>">Soutien scolaire</a></li>
-                                <li><a class="dropdown-link" href="<?php echo base_url("Jeunes/AteliersCEB");?>">Ateliers CEB</a></li>
+                                <li><a class="dropdown-link" href="<?php echo base_url("Jeunes/AteliersCEB");?>">Ateliers CEB (prochainement)</a></li>
                                 <li><a class="dropdown-link" href="<?php echo base_url("Jeunes/SummerClasses");?>">Summer classes (prochainement)</a></li>
                                 <li><a class="dropdown-link" href="<?php echo base_url("Jeunes/ActivitesEte");?>">Activités été (prochainement)</a></li>
                                 <li class="divider"></li>
                                 <li class="dropdown-header">Activités pour adultes</li>
                                 <li class="divider"></li>
-                                <li><a class="dropdown-link" href="<?php echo base_url("Adultes/Alphabetisation");?>">Alphabétisation / FLE</a></li>
                                 <li><a class="dropdown-link" href="<?php echo base_url("Adultes/AteliersSante");?>">Ateliers santé</a></li>
                                 <li><a class="dropdown-link" href="<?php echo base_url("Adultes/SoutienParents");?>">Soutien à la parentalité</a></li>
+                                <li><a class="dropdown-link" href="<?php echo base_url("Adultes/Alphabetisation");?>">Alphabétisation / FLE (prochainement)</a></li>
                             </ul>
                         </li>
                         <li><a href="<?php echo base_url("Events");?>">Evénements</a></li>
