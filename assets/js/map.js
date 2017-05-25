@@ -1,4 +1,3 @@
-$( launchMap );
 function launchMap() 
 {
     var ixelles =  
@@ -27,7 +26,8 @@ function launchMap()
         marker.addListener('click', function () {
              var infoWindow = new google.maps.InfoWindow({ map: map,
         content : infoWindowContent,  maxWidth: 350 });
-        infoWindow.setPosition(ixelles);});
+        infoWindow.setPosition(ixelles);
+    });
         var opt = {  minZoom: 18 };
         map.setOptions(opt);
 
