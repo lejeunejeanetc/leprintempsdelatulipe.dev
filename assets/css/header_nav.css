@@ -1,8 +1,11 @@
+body{
+    font-family: "Source", Helvetica, Arial, sans-serif;
+}
+
 .contenu{
     min-height: 60vh;
     margin-top: 100px;
 }
-
 
 .container>.row{
     margin-top: 70px;
@@ -13,9 +16,6 @@
 #navbar{
     height: 70px;
     background-color: #0bc1ad;
-}
-p{
-    font-family: "Source"
 }
 #navbar .navbar{
     background-color: transparent;
@@ -64,6 +64,10 @@ h3, h4{
     font-weight: normal;
     color: #0bc1ad;
     margin-bottom: 25px;
+}
+h5{
+    margin-bottom: 15px;
+    font-size: 20px;
 }
 /* DROPDOWN */
 

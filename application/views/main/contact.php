@@ -5,7 +5,7 @@
         $message = isset($input_message)?$input_message:"";
         ?>
     <h1 class="text-center titre-contact">Contact</h1>
-    <h4 class="text-center titre-contact">Si vous avez une question ou une suggestion, n'hésitez pas à nous contacter.</h4>
+    <h5 class="text-center titre-contact">Si vous avez une question ou une suggestion, n'hésitez pas à nous contacter.</h5>
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2 form-contact">
             <form action="<?php echo base_url('MainTulipe/contact_form'); ?>" method="POST" class="form-horizontal" role="form">
