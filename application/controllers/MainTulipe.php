@@ -76,7 +76,6 @@ class MainTulipe extends MY_Controller {
 			$prenom = $this->input->post('newsletter_prenom');
 			$email = $this->input->post('newsletter_email');
 			$this->newsletter_model->subscribe($prenom, $email);
-			$this->data['inscription'] = true;
 			$this->render('main/newsletter', 'template/base/index');
 		}
 

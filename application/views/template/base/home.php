@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="<?= base_url('node_modules/font-awesome/css/font-awesome.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/footer.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/header_nav.css') ?>">
-    <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/home.css') ?>">
     <script src='https://www.google.com/recaptcha/api.js'></script>
    

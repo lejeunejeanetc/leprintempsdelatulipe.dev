@@ -1,8 +1,9 @@
 <h2 class="alert alert-success">Merci pour votre inscription !</h2>
-
-<?php 
-    //sleep(5);
-    //redirect('maintulipe/index');
-?>
-
-<a href="<?php echo base_url('maintulipe/create_csv'); ?>">Télécharger la BDD</a>
+<script>
+    function redirect_homepage(){
+        setTimeout(function () {
+        window.location.href = "index";
+        }, 3000); 
+    }
+    redirect_homepage()
+</script>
