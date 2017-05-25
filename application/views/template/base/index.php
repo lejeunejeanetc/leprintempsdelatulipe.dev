@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LePrintempsDeLaTulipe</title>
+    <script src=" <?= base_url('node_modules/jquery/dist/jquery.js') ?>"></script>//JQUERY NE FONCTIONNE PAS POUR LA MAP SI PAS DANS LE HEAD NE SAIS PAS PQ??
     <link rel="stylesheet" href="<?= base_url('node_modules/bootstrap/dist/css/bootstrap.min.css') ?>">
     <link rel="stylesheet" href="<?= base_url('node_modules/font-awesome/css/font-awesome.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/footer.css') ?>">
@@ -13,6 +14,8 @@
     <link rel="stylesheet" href="<?= base_url('assets/css/map.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/aboutus_style.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/events.css') ?>">
+     <link rel="stylesheet" href="<?= base_url('assets/css/admin.css') ?>">
+     
 
     <script src='https://www.google.com/recaptcha/api.js'></script>
 

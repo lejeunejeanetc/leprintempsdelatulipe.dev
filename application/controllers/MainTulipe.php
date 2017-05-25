@@ -5,10 +5,7 @@ class MainTulipe extends MY_Controller {
         parent::__construct();
         // charge notre model
         $this->load->model('contact_model');
-        $this->load->helper('form'); 
-        $this->load->library('session');
-        $this->load->library('form_validation');
-		$this->load->helper('url');
+       
         }
     public function index()
     {

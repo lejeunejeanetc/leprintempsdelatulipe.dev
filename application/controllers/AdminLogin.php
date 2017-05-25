@@ -8,6 +8,8 @@ class AdminLogin extends MY_Controller {
     
     $this->load->model('admin_mdl','admin_mdl');
     $this->load->model('events_mdl','events_mdl');
+    $this->load->library('form_validation');
+        $this->load->helper(array('form', 'url'));
    
   }
 
@@ -16,7 +18,7 @@ class AdminLogin extends MY_Controller {
     if($this->session->userdata('login') || $this->session->userdata('logged'))
     {
       $this->data["adminDashboard"] = $this->events_mdl->get_where($where);
-      redirect('session/logged',$data);
+      $this->render('session/logged');
     }
     else
     {
@@ -25,8 +27,8 @@ class AdminLogin extends MY_Controller {
   }
   public function login_admin()
   {
-    $this->form_validation->set_rules('login','login','trim|required');
-    $this->form_validation->set_rules('password','password','trim|required');
+    $this->form_validation->set_rules('login','login','trim|required',array('required' => 'Indiquez votre %s'));
+    $this->form_validation->set_rules('password','password','trim|required',array('required' => '%s requis'));
     if($this->form_validation->run())
     {
       if($this->admin_mdl->check_id($this->input->post('login'),$this->input->post('password')))
@@ -36,20 +38,20 @@ class AdminLogin extends MY_Controller {
         $this->data["adminDashboard"] = $this->events_mdl->get_where();
      
        $this->session->set_userdata($data);
-
        $this->render('session/logged');
       }
       else 
       {
         $data['error'] = 'Mauvais id';
-        $data['titre'] = 'contact';
+        $data['titre'] = '';
         $this->render('session/index');
       }
    }
    else
-  {
-    $data['titre'] = 'connecté';
-    redirect('VerifyLogin/login',$data);
+  {//form validation ne run pas
+    $data['titre'] = 'nonconnecté';
+     $this->render('session/index');
+    
   }
 }
 

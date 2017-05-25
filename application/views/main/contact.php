@@ -63,7 +63,9 @@
             </div>
         </div>
         <div class="col-md-7">
-            <div class="center-map" id="map"></div>
+            <div class="center-map" id="map">
+               
+            </div>
         </div>
     </div>
     <script src="<?= base_url('assets/js/map.js'); ?>"></script>
