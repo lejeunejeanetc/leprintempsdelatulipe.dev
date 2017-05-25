@@ -1,4 +1,4 @@
-<h3 class="aboutus-title text-center">Qui sommes nous ?</h3>
+<h1 class="text-center">Qui sommes nous ?</h1>
 <div class="row aboutus-intro">
     <div class="col-xs-6">
         <div class="aboutus-txt">

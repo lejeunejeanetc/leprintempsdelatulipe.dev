@@ -37,6 +37,8 @@ var dropdown = $('.dropdown');
 dropdown.click(function(){
     headerHeight = $(window).height() - maNav.height();
     if($(window).scrollTop() < headerHeight){
-        $('html, body').animate({scrollTop : $(window).height()},800);
+        if(dropdown.hasClass('open') == false){
+            $('html, body').animate({scrollTop : $(window).height()},800);
+        }
     }
 });

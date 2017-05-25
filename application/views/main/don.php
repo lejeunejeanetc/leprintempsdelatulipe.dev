@@ -1,4 +1,5 @@
-<h2 id='titredon'>Nous avons toujours besoin de votre aide</h2>
+<h1>Envie de nous aider ?</h1>
+<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam molestiae illo, quibusdam, porro amet eaque. Neque vel a, temporibus quae eaque. Fugit excepturi, maiores nulla incidunt temporibus explicabo cupiditate laudantium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nobis est, neque quod aut repellat ad rem quisquam fugiat beatae aliquid laborum accusamus, quos praesentium corporis eaque. Illum, cupiditate, nihil.</p>
 <!--formulaire de paiement paypal-->
 <div class="row">
     <div class="col-md-6">
