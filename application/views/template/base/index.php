@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="<?= base_url('assets/css/map.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/aboutus_style.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/events.css') ?>">
+     <link rel="stylesheet" href="<?= base_url('assets/css/admin.css') ?>">
+     
 
     <script src='https://www.google.com/recaptcha/api.js'></script>
 

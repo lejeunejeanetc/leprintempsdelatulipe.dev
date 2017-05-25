@@ -44,9 +44,9 @@ class Events extends MY_Controller {
         $image=$_POST['imagesource'];
         $description=$_POST['description'];
         $lienevent = $_POST['lien'];
-      $this->events_mdl->create($nameEvent,$eventadress,$image,$lienevent,$description);
-       $this->render('events/created', 'template/base/index'); 
-       
+        $this->events_mdl->create($nameEvent,$eventadress,$image,$lienevent,$description);
+        $this->render('events/created', 'template/base/index'); 
+       sleep(1);
        redirect('events','');
        
     }
@@ -69,14 +69,14 @@ class Events extends MY_Controller {
 
         $this->events_mdl->modify($nameEvent,$eventadress,$image,$lienevent,$description,$id);
         $this->render('events/updated');
+        sleep(1);
          redirect('events','');
       }
-
       public function delete ($id)
-      {
-       
+      { 
         $this->events_mdl->delete($id);
-         $this->render('events/delete');
-          redirect('events','');
+        $this->render('events/delete');
+        sleep(1);
+        redirect('events','');
       }
 }
