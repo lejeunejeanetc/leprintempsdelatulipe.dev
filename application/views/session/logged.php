@@ -31,8 +31,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
                         </p>
                     </div>
                     <div class="col-xs-3 col-xs-push-3">
-                        <a href="<?php echo base_url(" Events/modify/$row->id")?>" class="btn btn-primary">Modifier</a>
-                        <!--<a href="<?php echo base_url(" Events/delete/$row->id")?>" class="btn btn-danger">Supprimer</a>-->
+                        <a href="<?php echo base_url("Events/modify/$row->id")?>" class="btn btn-primary">Modifier</a>
+                        <!--<a href="<?php echo base_url("Events/delete/$row->id")?>" class="btn btn-danger">Supprimer</a>-->
 
 
                         <button data-toggle="modal" data-target="#ModalDelete" class="btn btn-danger">Supprimer</button>
@@ -51,7 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
                                         <p>Etes-vous sûr de vouloir supprimer l'évènement ? .</p>
                                     </div>
                                     <div class="modal-footer">
-                                        <a href="<?php echo base_url(" Events/delete/$row->id")?>" class="btn btn-danger">Supprimer</a>
+                                        <a href="<?php echo base_url("Events/delete/$row->id")?>" class="btn btn-danger">Supprimer</a>
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button>
                                     </div>
                                 </div>
@@ -67,12 +67,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
         } ?>
                 <div class="row ">
                     <div class="col-xs-3 col-xs-push-9">
-                        <a href="<?php echo base_url(" Events/create ")?>" class="btn btn-primary">Crée un Evenement</a>
+                        <a href="<?php echo base_url("Events/create ")?>" class="btn btn-primary">Crée un Evenement</a>
                     </div>
                 </div>
                 <div class="row ">
                     <div class="col-xs-3 col-xs-push-9">
-                        <a href="<?php echo base_url(" adminlogin/logout ")?>">Se déconnecter</a>
+                        <a href="<?php echo base_url("adminlogin/logout ")?>">Se déconnecter</a>
                     </div>
                 </div>
                 <?php }?>
